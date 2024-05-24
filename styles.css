@@ -1,0 +1,55 @@
+:root {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background: url('./background.jpg') no-repeat center center/cover;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+hr {
+    margin-top: 15px;
+}
+
+img {
+    width: 200px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+main > * {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+a {
+    color: white;
+}
