@@ -97,7 +97,7 @@
   --vp-home-hero-image-filter: blur(44px);
 }
 
-.VPHome {
+.VPHome:has(.VPHero) {
   margin-bottom: 0px !important;
 }
 
