@@ -28,16 +28,14 @@ export default defineConfig({
   title: siteTitle,
   description: siteDescription,
 
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
 
   themeConfig: {
 
-    logo: '/logo_dark.png',
-
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Catalog', link: '/catalog' },
-      { text: 'Blog', link: '/posts' }
+      { text: 'Projects', link: '/projects/' },
+      { text: 'Blog', link: `/${blogDir}/` },
     ],
 
     socialLinks: [
