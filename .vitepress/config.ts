@@ -6,7 +6,7 @@ import { Feed } from 'feed'
 import { formatPageContentForRSS } from './theme/utils';
 
 const siteTitle = 'Neural Interfaces';
-const siteDescription = 'The Catalog of Brain-Responsive Applications';
+const siteDescription = 'Brain-Computer Interfaces for the Rest of Us';
 const blogDir = 'posts';
 
 const hostName = 'https://neuralinterfaces.com';
@@ -18,7 +18,7 @@ const author = [
   }
 ]
 
-const siteCopyright = 'Copyright © 2024-present Garrett Flynn';
+const siteCopyright = 'Copyright © 2024-present Neural Interfaces and Contributors';
 
 const formattedPagesForRSS: Record<string, string> = {};
 
