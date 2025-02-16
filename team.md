@@ -6,7 +6,7 @@ sidebar: false
     <div class="member">
         <h3>Garrett Flynn</h3>
         <small>Interdisciplinary software engineer</small>
-        <p>Garrett currently works at <a href="https://www.universal-brain.com">Universal Brain</a> to transform depression treatment with at-home neurofeedback and neurotyping solutions.</p>
+        <p>Garrett currently works at <a href="https://www.universal-brain.com">Universal Brain</a> to transform depression treatment with FDA-cleared neurofeedback and neurotyping solutions for home use.</p>
     </div>
     <div class="member">
         <h3>Jordan Harb</h3>
