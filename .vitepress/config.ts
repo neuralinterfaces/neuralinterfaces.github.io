@@ -18,7 +18,7 @@ const author = [
   }
 ]
 
-const siteCopyright = 'Copyright © 2024-present Neural Interfaces and Contributors';
+const siteCopyright = 'Copyright © 2024-present Neural Interfaces';
 
 const formattedPagesForRSS: Record<string, string> = {};
 
