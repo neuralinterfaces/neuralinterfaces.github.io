@@ -30,12 +30,14 @@ export default defineConfig({
 
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
 
+  appearance: false,
+
   themeConfig: {
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Projects', link: '/projects/' },
-      { text: 'Blog', link: `/${blogDir}/` },
+      // { text: 'Blog', link: `/${blogDir}/` },
+      { text: 'Team', link: '/team' }
     ],
 
     socialLinks: [
@@ -43,7 +45,6 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Built with 🧠 by Garrett Flynn',
       copyright: siteCopyright
     }
   },

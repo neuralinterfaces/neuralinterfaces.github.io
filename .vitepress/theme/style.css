@@ -107,13 +107,72 @@
 }
 
 .VPHero  {
-  height: calc(100vh - var(--vp-nav-height) - 50px);
+  /* height: calc(100vh - var(--vp-nav-height) - 50px); */
+  height: calc(100vh - var(--vp-nav-height) - 400px);
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  background: url('/hero-min.jpg') right/cover no-repeat;
+  background-color: rgba(255,255,255,0.5);
+  background-blend-mode: lighten;
 }
 
+h2 {
+  border: 0 !important;
+  margin-top: 30px !important;
+}
+
+/* Custom Items */
+.callout {
+  margin-top: 25px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.project {
+  padding: 30px;
+  cursor: pointer;
+  border: 1px solid darkgray;
+  border-radius: 10px;
+}
+
+.project h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.project h6 {
+  color: dimgray;
+  font-size: 0.85rem;
+  margin-bottom: 5px;
+}
+
+.project a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.team {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.member {}
 
 @media (min-width: 640px) {
   :root {
