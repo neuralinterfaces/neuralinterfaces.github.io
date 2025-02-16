@@ -17,11 +17,20 @@ hero:
 We make brain-computer interfaces accessible to everyone.
 
 <div class="callout">
-  <div>
-    <h5>Interested in using our products?</h5>
-    <small>Sign up to be notified for updates and early access.</small>
-  </div>
-    <small>Coming soon...</small>
+    <div>
+      <h5>Interested in using our products?</h5>
+      <small>Sign up to be notified for updates and early access.</small>
+    </div>
+    <form
+      action="https://buttondown.com/api/emails/embed-subscribe/neuralinterfaces"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.com/neuralinterfaces', 'popupwindow')"
+      class="embeddable-buttondown-form"
+    >
+      <input type="email" name="email" placeholder="Enter your email"/>
+      <input type="submit" value="Subscribe" />
+    </form>
 </div>
 
 ## Projects
@@ -37,7 +46,7 @@ Our work at Neural Interfaces allows you to access brain-responsive applications
   </div>
 
   <div class="project">
-    <a href="https://commoners.dev" target="_blank">
+    <a href="https://github.com/neuralinterfaces/commoners" target="_blank">
       <h6>Cross-Platform Development for the Rest of Us</h6>
       <h3>Commoners</h3>
     </a>
