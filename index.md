@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: Neural Interfaces
-  tagline: Brain-Computer Interfaces for the Rest of Us
+  tagline: Brain-Responsive Apps for the Masses
   actions:
     - theme: brand
       text: Meet the Team
@@ -14,7 +14,7 @@ hero:
 ---
 
 ## Our Mission
-We make brain-computer interfaces (BCIs) accessible to everyone.
+We make brain-responsive applications accessible to everyone.
 
 <div class="callout">
     <div>
