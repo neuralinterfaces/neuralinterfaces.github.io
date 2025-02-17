@@ -14,7 +14,7 @@ hero:
 ---
 
 ## Our Mission
-We make brain-computer interfaces accessible to everyone.
+We make brain-computer interfaces (BCIs) accessible to everyone.
 
 <div class="callout">
     <div>
