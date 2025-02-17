@@ -40,7 +40,7 @@ Our work at Neural Interfaces allows you to access brain-responsive applications
 
   <div class="project">
     <a href="https://github.com/neuralinterfaces/neurosys" target="_blank">
-      <h6>Neurofeedback for the Rest of Us</h6>
+      <h6>A System Overlay for your Brain</h6>
       <h3>Neurosys</h3>
     </a>
   </div>
