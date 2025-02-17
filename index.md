@@ -33,7 +33,7 @@ We make brain-computer interfaces (BCIs) accessible to everyone.
     </form>
 </div>
 
-## Projects
+## Products
 Our work at Neural Interfaces allows you to access brain-responsive applications across multiple platforms using modern web technologies.
 
 <div class="projects">
@@ -51,11 +51,5 @@ Our work at Neural Interfaces allows you to access brain-responsive applications
       <h3>Commoners</h3>
     </a>
   </div>
-
-  <div class="project">
-    <a href="https://brainsatplay.com" target="_blank">
-      <h6>Developing BCIs with Everyone</h6>
-      <h3>Brains@Play</h3>
-    </a>
-  </div>
 </div>
+
