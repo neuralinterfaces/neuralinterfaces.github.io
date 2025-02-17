@@ -6,7 +6,7 @@ import { Feed } from 'feed'
 import { formatPageContentForRSS } from './theme/utils';
 
 const siteTitle = 'Neural Interfaces';
-const siteDescription = 'Brain-Computer Interfaces for the Rest of Us';
+const siteDescription = 'Brain-Responsive Apps for the Masses';
 const blogDir = 'posts';
 
 const hostName = 'https://neuralinterfaces.com';
